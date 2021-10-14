@@ -4,8 +4,8 @@ def swap_last_item(newList):
   #length of list is assigned to size for easy index access
   size = len(newList) 
   
-    temp = newList[0]
-    newList[0] = newList[size-1]
-    newlist[size-1] = temp
+   temp = newList[0]
+   newList[0] = newList[size-1]
+   newlist[size-1] = temp
   
  return newList

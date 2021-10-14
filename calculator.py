@@ -12,8 +12,6 @@ def calculator(number1,number2,operator):
   print(number1*number2)
 # else if operator is "/",then perform division and print result
  elif operator=="/":
-    if(number2==0)
-     print("no division by 0")
   print(number1/number2)
 # else if operator is "//",then perform integer division and print result
  elif operator=="//":

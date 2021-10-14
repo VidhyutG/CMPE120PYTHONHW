@@ -7,4 +7,4 @@ def swap_last_item(newList):
  newList[0] = newList[size-1]
  newlist[size-1] = temp
   
-return newList
+ return newList

@@ -2,9 +2,9 @@ import time
 
 def calculate_time(func):
  def innermethod():
-  begin = time.time
+  begin = time.time()
   timer()
-  end = time.time
+  end = time.time()
   print(f'total time taken: {end-begin}')
  return innermethod
 

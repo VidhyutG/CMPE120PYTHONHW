@@ -24,6 +24,10 @@ def calculator(number1,number2,operator):
   return False
 
 def parse_input():
- number1, operator, number2 = input("enter equation: ").split()
+ a = input("Enter equation: ")
+ b = list(a)
+ number1 = b[0]
+ operator = b[1]
+ number2 = b[2]
  calculator(int(number1),int(number2),operator)
 

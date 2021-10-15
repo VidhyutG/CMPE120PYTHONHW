@@ -29,9 +29,17 @@ def parse_input():
  #parses user input into b as a string of characters
  b = list(a)
  #assigns each element in the list to the parameters needed for the calculation
- number1 = b[0]
- operator = b[1]
- number2 = b[2]
+ c = len(b)
+ #based on length of list , it assigns the elements in the list to the parameters to be passed
+ #if operator has 1 character
+ if c==3:
+  number1 = b[0]
+  operator = b[1]
+  number2 = b[2]
+ #if operator requires 2 characters
+ elif c==4:
+  number1 = b[0]
+  operator = b[1]+b[2]
+  number2 = b[3]
  #calls calculator function and parses parameters as needed 
  calculator(float(number1),float(number2),operator)
-

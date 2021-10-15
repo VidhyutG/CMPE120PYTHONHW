@@ -7,7 +7,8 @@ def calculate_time(func):
   begin = time.time()
   timer()
   end = time.time()
-  print(f'Total time{end-begin}')
+  total = end - begin
+  print(f'Total time{total}')
  return innermethod
 #defining function to be called within decorator
 def timer():

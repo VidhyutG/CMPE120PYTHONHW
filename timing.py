@@ -13,4 +13,4 @@ def timer():
   
 function_used = calculate_time(timer)
 
-function used()
+function_used()

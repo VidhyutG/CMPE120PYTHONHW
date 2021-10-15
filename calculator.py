@@ -33,5 +33,5 @@ def parse_input():
  operator = b[1]
  number2 = b[2]
  #calls calculator function and parses parameters as needed 
- calculator(int(number1),int(number2),operator)
+ calculator(float(number1),float(number2),operator)
 

@@ -5,7 +5,8 @@ def calculate_time(func):
   begin = time.time
   timer()
   end = time.time
-  print("total time taken: ",end - begin)
+  total = end - begin
+  print("total time taken: ",total)
  return innermethod
 
 def timer():

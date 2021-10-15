@@ -24,10 +24,14 @@ def calculator(number1,number2,operator):
   return False
 
 def parse_input():
+ ''' Converts users string input into a list and assigns each element in the list to the variables to be passed to the calculator function'''
  a = input("Enter equation: ")
+ #parses user input into b as a string of characters
  b = list(a)
+ #assigns each element in the list to the parameters needed for the calculation
  number1 = b[0]
  operator = b[1]
  number2 = b[2]
+ #calls calculator function and parses parameters as needed 
  calculator(int(number1),int(number2),operator)
 

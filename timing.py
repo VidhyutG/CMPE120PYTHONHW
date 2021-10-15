@@ -13,6 +13,6 @@ def calculate_time(func):
 def timer():
   time.sleep(2)
   
-timer = calculate_time(timer)
+myfunction = calculate_time(timer)
 #calls function to time
-timer()
+myfunction()

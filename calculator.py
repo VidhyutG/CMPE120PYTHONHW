@@ -25,7 +25,7 @@ def calculator(number1,number2,operator):
 
 def parse_input():
  ''' Converts users string input into a list and assigns each element in the list to the variables to be passed to the calculator function'''
- a = input("Enter equation: ")
+ a = input("Enter equation:")
  #parses user input into b as a string of characters
  b = list(a)
  #assigns each element in the list to the parameters needed for the calculation

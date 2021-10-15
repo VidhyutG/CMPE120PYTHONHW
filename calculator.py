@@ -11,12 +11,10 @@ def calculator(number1,number2,operator):
  elif operator=="*":
   print(number1*number2)
 # else if operator is "/",then perform division and print result
- elif operator=="/":
-  if (number2==0)
-   print("division by 0")
-  print(number1/number2)
+ elif operator=="/" and number2!=0:
+  print(number1/number2) 
 # else if operator is "//",then perform integer division and print result
- elif operator=="//":
+ elif operator=="//" and number2!=0:
   print(number1//number2)
 # else if operator is "**",then perform power operation and print result
  elif operator=="**":

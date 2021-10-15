@@ -11,7 +11,7 @@ def calculate_time(func):
  return innermethod
 #defining function to be called within decorator
 def timer():
-  time.sleep(2)
+  time.sleep(1)
   
 myfunction = calculate_time(timer)
 #calls function to time
